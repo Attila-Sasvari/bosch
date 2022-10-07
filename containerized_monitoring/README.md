@@ -29,7 +29,7 @@ The main logic behing selecting the above listed services (e.g., node-exporter, 
 
 Linux node dashboard on remote Grafana
 
-![Linux on Grafana](images/docker_compose_ps.png)
+![Linux on Grafana](images/linux_grafana.png)
 
 Postgres on dockerized Grafana
 
