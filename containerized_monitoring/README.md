@@ -23,22 +23,22 @@ The main logic behing selecting the above listed services (e.g., node-exporter, 
 
 ## Screenshots
 
-Architecture
+### Architecture
 
 ![architecture](images/architecture.png)
 
-`docker-compose ps`
+### docker-compose ps
 
 ![docker-compose ps](images/docker_compose_ps.png)
 
-Linux node dashboard on remote Grafana
+### Linux node dashboard on remote Grafana
 
 ![Linux on Grafana](images/linux_grafana.png)
 
-Postgres on dockerized Grafana
+### Postgres on dockerized Grafana
 
 ![postgresql on grafana](images/postgres.png)
 
-Some basic alert
+### Some basic alert
 
 ![alert](images/alert.png)
