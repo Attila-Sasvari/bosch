@@ -23,6 +23,10 @@ The main logic behing selecting the above listed services (e.g., node-exporter, 
 
 ## Screenshots
 
+Architecture
+
+![architecture](images/architecture.png)
+
 `docker-compose ps`
 
 ![docker-compose ps](images/docker_compose_ps.png)
