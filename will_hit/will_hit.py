@@ -28,9 +28,12 @@ def will_hit(traj: str, coords: tuple) -> bool:
         operator = traj_calc["operator"]
         b = int(traj_calc["b"])
     else:
-        raise ValueError("The provided trajectory does not follow the expected format.")
+        raise ValueError(
+            "The provided trajectory does not follow the expected format.")
 
-    print(f"{y} == {m} * {x} {operator} {b}")
+    # print the equation after normalization and substitution
+    # print(f"{y} == {m} * {x} {operator} {b}")
+
     if b == 0:
         return False
 
@@ -38,11 +41,3 @@ def will_hit(traj: str, coords: tuple) -> bool:
         return y == m * x + b
     elif operator == "-":
         return y == m * x - b
-
-
-print(will_hit("y= 2x - 5", (0, 0)))
-print(will_hit("y =-4x + 6", (1, 2)))
-print(will_hit("y = 2x+ 6", (3, 2)))
-print(will_hit("y = 2x* 6", (3, 2)))
-
-

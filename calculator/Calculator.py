@@ -5,6 +5,7 @@ class Calculator:
     - multiplication
     - division
     """
+
     def add(self, x: int, y: int) -> int:
         return x + y
 
@@ -16,9 +17,3 @@ class Calculator:
 
     def divide(self, x: int, y: int) -> int:
         return int(x / y)
-
-calculator = Calculator()
-print(calculator.add(10, 5))
-print(calculator.subtract(10, 5))
-print(calculator.multiply(10, 5))
-print(calculator.divide(10, 5))
