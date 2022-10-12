@@ -1,6 +1,7 @@
 import re
 
 
+# regular expression to identify trajectory elements
 traj_regexp = r'y\s?\=\s?(?P<m>\-?\d+)x\s?(?P<operator>[+\-])\s?(?P<b>\d+)'
 
 
@@ -17,6 +18,7 @@ def will_hit(traj: str, coords: tuple) -> bool:
 
     x, y = coords
 
+    # setup default values
     m = 0
     b = 0
     operator = "+"
