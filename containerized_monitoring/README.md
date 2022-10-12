@@ -9,6 +9,8 @@ This project includes `docker-compose.yml` which spins up the following services
 
 It also includes `prometheus.yml` to scrape the Linux node and the Postgres instance.
 
+![architecture](images/architecture.png)
+
 A Grafana dashboard with the help of a public plugin was setup for the Linux Node.
 
 The dockerized Grafana instance is connected with PostgreSQL and one panel was added that visualizes a time series data.
@@ -22,10 +24,6 @@ The main logic behing selecting the above listed services (e.g., node-exporter, 
 - the available documentations.
 
 ## Screenshots
-
-### Architecture
-
-![architecture](images/architecture.png)
 
 ### docker-compose ps
 
