@@ -1,8 +1,8 @@
 # C++ helloworld
 
 This repository includes
-- a C++ script which print "Hello World" to the console, and
-- a Dockerfile which compiles the .cpp file in a builder image, and starts the executable in a separate image.
+- a `C++ script` which prints "Hello World" to the console, and
+- a `Dockerfile` which compiles the .cpp file in a builder image, and starts the executable in a separate image.
 
 ## Procedure
 
