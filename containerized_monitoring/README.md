@@ -19,7 +19,7 @@ __This project was inspired by Grafana website's Quickstarts page.__
 
 ## Reasoning behind the selection of the services
 
-The main logic behing selecting the above listed services (e.g., node-exporter, Prometheus, Grafana) boils down to the following factors:
+The main reason behind selecting the above listed services (e.g., node-exporter, Prometheus, Grafana) boils down to the following factors:
 - due to the available time to solve this challenge, I selected services I have already met before during my studies and practices.
 - the available documentations.
 
